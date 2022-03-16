@@ -5,14 +5,14 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('university-erp:server');
+var debug = require('debug')('hard-desking:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '2100');
 app.set('port', port);
 
 /**
